@@ -1,13 +1,19 @@
 .__small-card {
     display: flex;
     flex-direction: column;
-    width: 210px;
-    text-align: justify;
+    width: 100%;
+    text-align: start;
     font-size: small;
+    transition: .4s;
+}
+.__small-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
-.photo-side img {
+.photo__small-card img {
     max-width: 100%;
+    border-radius: 5px;
 }
 
 .article__small-card data, .title, .desc, .author {

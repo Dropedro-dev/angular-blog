@@ -1,6 +1,9 @@
+header {
+    width: 100vw;
+}
 .__others-articles {
-    display: grid;
     margin-top: 30px;
+    display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 20px;
     align-items: center;
