@@ -1,0 +1,28 @@
+.__big-card {
+    display: flex;
+}
+
+.article__big-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.author {
+    display: flex;
+    margin-top: 15px;
+}
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.author-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+    font-size: 15px;
+    line-height: 15px;
+}

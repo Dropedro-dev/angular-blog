@@ -1,0 +1,7 @@
+.__others-articles {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    align-items: center;
+}

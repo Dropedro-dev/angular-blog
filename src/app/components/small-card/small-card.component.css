@@ -1,0 +1,42 @@
+.__small-card {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    text-align: justify;
+    font-size: small;
+}
+
+.photo-side img {
+    max-width: 100%;
+}
+
+.article__small-card data, .title, .desc, .author {
+    margin-bottom: 10px;
+    
+}
+.article__small-card data {
+    color: #BFBFBF;
+    font-size: small;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+.author-info .name__small-card {
+    font-weight: bold;
+}
+.author-info .desc__small-card {
+    color: #BFBFBF;
+}
