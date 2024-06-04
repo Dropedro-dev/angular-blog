@@ -1,12 +1,31 @@
 nav {
-    background-color: red;
-    height: 40px;
+    display: flex;
+    height: 60px;
+    align-items: center;
 }
-.btn-search {
-    position: absolute;
-    right: 10px;
+.search-area {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid #BFBFBF;
+    padding: 8px 12px;
+    gap: 6px;
+    
 }
-.search-side input {
-    border-radius: 30px;
-    position: relative;
+.search-area i {
+    transition: .5s;
+    cursor: pointer;
+}
+.search-area i:active {
+    transform: scale(.6);
+}
+.search-area input {
+    background-color: transparent;
+    border: none;
+}
+.search-area input:focus-visible{
+    outline: none;
+
 }
