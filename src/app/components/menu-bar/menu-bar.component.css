@@ -1,7 +1,11 @@
-nav {
-    display: flex;
+.__menu-bar{
     height: 60px;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+.left-side{
+    flex: 1;
 }
 .search-area {
     display: flex;
@@ -10,16 +14,16 @@ nav {
     display: flex;
     border-radius: 20px;
     border: 1px solid #BFBFBF;
-    padding: 8px 12px;
+    padding: 3px 5px;
     gap: 6px;
     
 }
 .search-area i {
-    transition: .5s;
+    transition: 1s;
     cursor: pointer;
 }
 .search-area i:active {
-    transform: scale(.6);
+    transform: scale(.8);
 }
 .search-area input {
     background-color: transparent;
@@ -28,4 +32,26 @@ nav {
 .search-area input:focus-visible{
     outline: none;
 
+}
+
+.center-side{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.title__menu-bar{
+    font-size: 35px;
+}
+
+.right-side {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+i.menu-openner{
+    margin-left: 45px ;
+    
 }
